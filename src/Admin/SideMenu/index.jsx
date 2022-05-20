@@ -87,16 +87,6 @@ const SideMenu = () => {
             Account
           </NavLink>
         </Menu.Item>
-        {/* <Menu.Item key="9" icon={<UserOutlined />}>
-          <NavLink activeClassName="active" to="/d/account">
-            Account
-          </NavLink>
-        </Menu.Item>
-        <Menu.Item key="10" icon={<UserOutlined />}>
-          <NavLink activeClassName="active" to="/d/account">
-            Account
-          </NavLink>
-        </Menu.Item> */}
       </Menu>
     </div>
   );

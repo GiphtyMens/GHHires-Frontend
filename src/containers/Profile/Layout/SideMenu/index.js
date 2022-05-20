@@ -1,21 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {
-  ReadOutlined,
+  // ReadOutlined,
   MailOutlined,
-  ShoppingCartOutlined,
+  // ShoppingCartOutlined,
   MessageOutlined,
   UserOutlined,
   DashboardOutlined,
   DotChartOutlined,
-  ProfileOutlined,
+  // ProfileOutlined,
   FundOutlined,
-  FormOutlined,
+  // FormOutlined,
   CalendarOutlined,
 } from "@ant-design/icons";
 
-import { Menu, Button } from "antd";
-const { SubMenu } = Menu;
+import { Menu } from "antd";
+// const { SubMenu } = Menu;
 
 const SideMenu = () => {
   return (
