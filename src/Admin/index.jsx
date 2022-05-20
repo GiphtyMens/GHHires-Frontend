@@ -4,7 +4,7 @@ import SideMenu from "./SideMenu";
 import Nav from "./Nav";
 import { shopUserState } from "../store/shopStore";
 import { RiRadioButtonLine } from "react-icons/ri";
-import { Layout, Button } from "antd";
+import { Layout } from "antd";
 // import PostList from "./Layout/Posts/PostList";
 // import SubNavigation from "../../components/SubNavigation";
 // import mainDasboard from "./Layout/Default";
@@ -12,7 +12,7 @@ import { Layout, Button } from "antd";
 // import Sales from "./Layout/Sales";
 // import AddBook from "./Layout/Books/AddBook/index";
 // import BookList from "./Layout/Books/BookList/index";
-const { Content, Footer, Sider } = Layout;
+const { Content, Sider } = Layout;
 
 const Dashboard = () => {
   const logout = shopUserState((state) => state.logOut);

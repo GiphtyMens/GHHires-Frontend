@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "./Received.module.css"
+// import Styles from "./Received.module.css"
 
 const Received = () => {
   return (

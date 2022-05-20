@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Category from "./components/Category";
-import Shops from "./components/Shops";
+// import Shops from "./components/Shops";
 import Rated from "./components/Rated";
 import Career from "./components/Career";
 import Plumb from "./components/Plumb";

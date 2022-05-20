@@ -1,10 +1,8 @@
-import React from 'react'
-import Styles from "./Account.module.css"
+import React from "react";
+import styles from "./Account.module.css";
 
 const UserAccount = () => {
-  return (
-    <div>Account</div>
-  )
-}
+  return <div className={styles.account}>Account</div>;
+};
 
-export default UserAccount
+export default UserAccount;

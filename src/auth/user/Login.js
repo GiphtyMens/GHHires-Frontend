@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import styles from "../Auth.module.css";
-import { FiArrowLeft } from "react-icons/fi";
+// import { FiArrowLeft } from "react-icons/fi";
 import { useUserState } from "../../store/userStore";
 
 const fetchQuery = async ({ uri, method = "GET", body = null }) => {

@@ -13,7 +13,7 @@ const Services = () => {
           />
         </div>
         <div className={styles.description_card1}>
-          <h5></h5>
+          <div></div>
           <h1>Low Fade</h1>
           <p>
             Low fade is when the hair disappears more than a few inches below
@@ -22,7 +22,7 @@ const Services = () => {
           <h2>GHS 20</h2>
         </div>
         <div className={styles.description_card2}>
-          <h5></h5>
+          <div></div>
           <h1>High Fade</h1>
           <p>
             High fade is when the hair completely disappears within a few inches
@@ -31,7 +31,7 @@ const Services = () => {
           <h2>GHS 20</h2>
         </div>
         <div className={styles.description_card3}>
-          <h5></h5>
+          <div></div>
           <h1>Mid Fade</h1>
           <p>
             If you want the fade to end somewhere in between a low fade and a
@@ -42,7 +42,7 @@ const Services = () => {
         {/* </div>
       <div className={styles.second_row}> */}
         <div className={styles.des_card1}>
-          <h5></h5>
+          <div></div>
           <h1>Crew Cut</h1>
           <p>
             Shave the hair shorter on the sides, but the hair is left longer on
@@ -51,7 +51,7 @@ const Services = () => {
           <h2>GHS 20</h2>
         </div>
         <div className={styles.des_card2}>
-          <h5></h5>
+          <div></div>
           <h1>Buzzcuts</h1>
           <p>
             Shave the hair to a consistently short length that's
@@ -60,7 +60,7 @@ const Services = () => {
           <h2>GHS 20</h2>
         </div>
         <div className={styles.des_card3}>
-          <h5></h5>
+          <div></div>
           <h1>Quiff</h1>
           <p>
             little mountain of hair at the front, combed upwards and hair combed

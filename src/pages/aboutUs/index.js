@@ -11,7 +11,7 @@ const AboutUs = () => {
       <br />
       <br />
       <div className={styles.header_session}>
-        <h5></h5>
+        <div></div>
         <h1>
           Discover the easiest way to schedule appointments with the #1 online
           booking system
@@ -25,9 +25,7 @@ const AboutUs = () => {
           24x7, automate payments, business management, marketing, and more!
         </p>
       </div>
-      <button style={{ height: "3rem", width: "15rem" }}>
-        Get Started now!
-      </button>
+      <button className={styles.button}>Get Started now!</button>
     </div>
   );
 };

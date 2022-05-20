@@ -7,7 +7,7 @@ const Shops = () => {
 
   useEffect(() => {
     getShops();
-  }, []);
+  });
 
   const getShops = async () => {
     const res = await fetch(

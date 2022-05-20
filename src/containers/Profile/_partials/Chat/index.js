@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "./Chat.module.css"
+// import Styles from "./Chat.module.css"
 
 const Chat = () => {
   return (

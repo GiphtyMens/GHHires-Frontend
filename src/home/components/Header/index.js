@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
-import { BsSearch } from "react-icons/bs";
+// import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.header_img}>
-        <h5></h5>
+        {/* <h5></h5> */}
       </div>
     </div>
   );

@@ -28,10 +28,10 @@ const Appointment = () => {
         key: "operation",
         render: () => (
           <Space size="middle">
-            <a>Pause</a>
-            <a>Stop</a>
+            {/* <a>Pause</a>
+            <a>Stop</a> */}
             <Dropdown overlay={menu}>
-              <a>
+              <a href="/">
                 More <DownOutlined />
               </a>
             </Dropdown>

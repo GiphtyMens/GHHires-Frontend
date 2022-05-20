@@ -31,12 +31,12 @@
   text-align: left;
 }
 
-.description_card1 > h5,
-.description_card2 > h5,
-.description_card3 > h5,
-.des_card1 > h5,
-.des_card2 > h5,
-.des_card3 > h5 {
+.description_card1 > div,
+.description_card2 > div,
+.description_card3 > div,
+.des_card1 > div,
+.des_card2 > div,
+.des_card3 > div {
   height: 28vh;
   width: 100%;
   /* border: 1px solid black; */
