@@ -62,7 +62,7 @@ const RgisterShop = () => {
       // }
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/shop/register",
+        "https://expensive-fish-dress.cyclic.app/api/auth/shop/register",
         formData
       );
       // console.log(res);

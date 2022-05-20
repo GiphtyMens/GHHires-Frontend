@@ -44,7 +44,7 @@ const Register = () => {
     };
 
     const data = await fetchQuery({
-      uri: "http://localhost:5000/api/auth/user/register",
+      uri: "https://expensive-fish-dress.cyclic.app/api/auth/user/register",
       method: "POST",
       body: newCustomer,
     });

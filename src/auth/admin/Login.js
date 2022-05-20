@@ -32,7 +32,7 @@ const LoginShop = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { shop } = await fetchQuery({
-      uri: "http://localhost:5000/api/auth/shop/login",
+      uri: "https://expensive-fish-dress.cyclic.app/api/auth/shop/login",
       method: "POST",
       body: { ...state },
     });
@@ -74,3 +74,5 @@ const LoginShop = () => {
 };
 
 export default LoginShop;
+
+// https://expensive-fish-dress.cyclic.app/api/shop

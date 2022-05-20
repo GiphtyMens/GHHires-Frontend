@@ -31,7 +31,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { user } = await fetchQuery({
-      uri: "http://localhost:5000/api/auth/user/login",
+      uri: "https://expensive-fish-dress.cyclic.app/api/auth/user/login",
       method: "POST",
       body: { ...state },
     });

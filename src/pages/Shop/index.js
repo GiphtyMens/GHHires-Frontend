@@ -10,9 +10,7 @@ const Shops = () => {
   });
 
   const getShops = async () => {
-    const res = await fetch(
-      "https://shy-puce-sea-urchin-boot.cyclic.app/api/shop"
-    );
+    const res = await fetch("https://expensive-fish-dress.cyclic.app/api/shop");
     const data = await res.json();
     console.log(data[0].shops);
     // const allShops = await data.shops;
