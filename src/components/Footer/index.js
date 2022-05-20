@@ -14,11 +14,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.first_row}>
-        <h1>
-          NA
-          <FaTypo3 />
-          NA
-        </h1>
+        <div className={styles.logo_img}></div>
         <div className={styles.fir_row}>
           <ul>
             <li>
@@ -38,8 +34,8 @@ const Footer = () => {
       </div>
       <div className={styles.second_row}>
         <ul>
-          <li className={styles.sr_list}>About Naana</li>
-          <li>Careers at Naana</li>
+          <li className={styles.sr_list}>About GHhires</li>
+          <li>Careers at GHhires</li>
           <li>Customer Support</li>
           <li>Blog</li>
         </ul>
@@ -47,7 +43,9 @@ const Footer = () => {
       <div className={styles.third_row}>
         <ul>
           <li className={styles.tr_list}>For business</li>
-          <li><Link to="/d">For Partners</Link></li>
+          <li>
+            <Link to="/d">For Partners</Link>
+          </li>
           <li>Pricing</li>
           <li>Support for Partners</li>
         </ul>

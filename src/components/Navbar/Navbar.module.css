@@ -81,3 +81,13 @@
 .nav_links > a:hover {
   color: black;
 }
+
+
+.logo_img {
+  background-image: url("/public/logo/ghhires1.png");
+  background-position: center;
+  background-size: cover;
+  height: 6rem;
+  width: 6rem;
+  /* margin: 0 0 0 5rem; */
+}
