@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Joshop Metal Works",
+    "address": "Tema, Comm 5",
+    "rating": 4,
+    "image": "",
+    "services": [
+      {
+        "id": 1,
+        "title": "Metal works",
+        "description": "Deals with all kinds of metal works"
+      }
+    ]
+  }
+  {
+    "id": 1,
+    "name": "Krane Construction",
+    "address": "Accra, Kanesion",
+    "rating": 4,
+    "image": "",
+    "services": [
+      {
+        "id": 1,
+        "title": "construction works",
+        "description": "Deals with all kinds of construction works"
+      }
+    ]
+  }
+  {
+    "id": 1,
+    "name": "Brazz welding Shop",
+    "address": "Tema, Comm 5",
+    "rating": 4,
+    "image": "",
+    "services": [
+      {
+        "id": 1,
+        "title": "Metal works",
+        "description": "Deals with all kinds of metal works"
+      }
+    ]
+  }
+]

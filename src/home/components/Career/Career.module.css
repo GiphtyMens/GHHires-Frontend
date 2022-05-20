@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.career {
+  height: 150vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(233, 233, 239);
+}
+
+.career_left,
+.career_right {
+  height: 120vh;
+  width: 46vw;
+  /* border: 1px solid black; */
+}
+
+.career_left {
+  text-align: left;
+  /* margin: 1rem 0 0 3rem; */
+}
+
+.career_left > h1 {
+  font-size: 50px;
+  margin: 2rem 0 0 2rem;
+}
+
+.career_left > p {
+  margin: 2rem 0 3rem 2rem;
+  font-size: 20px;
+}
+
+
+.r1,
+.r2,
+.r3,
+.r4 {
+  height: 7rem;
+  width: 40vw;
+  /* border: 1px solid black; */
+  box-shadow: 1px 1px 8px 1px gray;
+  margin: 1rem 0 20px 2rem;
+  background-color: white;
+  border-radius: 15px;
+  padding: 3px 0 0 20px;
+}
+
+.r1 > span,
+.r2 > span,
+.r3 > span,
+.r4 > span {
+  color: blue;
+}
+
+.career_left > button {
+  height: 3rem;
+  width: 8rem;
+  margin: 1rem 0 0 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: white;
+  border-style: none;
+  box-shadow: 1px 1px 8px 1px gray;
+  border-radius: 2px;
+}
+
+.career_right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cr_first,
+.cr_second {
+  height: 120vh;
+  width: 22vw;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cr_first > div,
+.cr_second > div {
+  /* border: 1px solid black; */
+  height: 57vh;
+  width: 100%;
+}
+
+.cr_img1{
+    background-image: url("/public/makeover.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.cr_img2{
+    background-image: url("/public/crew-cut_jpg-600x390.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.cl_img1{
+    background-image: url("/public/download\ \(3\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.cl_img2{
+    background-image: url("/public/buzzcut_jpg-600x390.jpg");
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+.category {
+  height: 70vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+}
+
+.category_text,
+.category_img {
+  height: 70vh;
+  width: 45vw;
+  /* border: 1px solid black; */
+  /* margin-top: 3rem; */
+}
+
+.category_img {
+  background-image: url("/public/mech.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.category_text {
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  font-size: 16px;
+}
+
+.category_text > h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  /* font-weight: 600; */
+}

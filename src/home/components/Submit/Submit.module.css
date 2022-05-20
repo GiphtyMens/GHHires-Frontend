@@ -1,0 +1,36 @@
+.submit {
+  height: 70vh;
+  width: 100%;
+  background-image: url("/public/cap.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  /* border: 1px solid greenyellow; */
+  padding: 8rem 0 0 0;
+  color: white;
+}
+
+.submit > h3 {
+  font-size: 33px;
+  color: white;
+}
+
+.submit > p {
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.submit > a > button {
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 10px;
+  color: black;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.submit > a > button:hover {
+  background-color: #fbd74d;
+}

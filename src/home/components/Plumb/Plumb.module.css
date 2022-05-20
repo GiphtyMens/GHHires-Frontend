@@ -1,0 +1,34 @@
+.plumb {
+  min-height: 70vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  background-color: rgb(246, 246, 246);
+}
+
+.plumb_image,
+.plumb_text {
+  height: 70vh;
+  width: 45vw;
+  /* border: 1px solid black; */
+}
+
+.plumb_image {
+  background-image: url("/public/plumb.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.plumb_text {
+  text-align: center;
+  font-size: 17px;
+  padding: 20px 30px 20px 30px;
+}
+
+.plumb_text > h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}

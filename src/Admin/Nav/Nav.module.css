@@ -1,0 +1,31 @@
+.admin_nav {
+  height: 12rem;
+  width: 100%;
+  /* border: 1px solid black; */
+  text-align: left;
+  padding: 20px 0 0 3rem;
+  display: flex;
+  background-color: white;
+}
+.ad_img {
+  height: 10rem;
+  width: 15rem;
+  margin-right: 2rem;
+}
+
+.ad_img > img {
+  height: 10rem;
+  width: 15rem;
+}
+
+.ad_info > h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.ad_info > p {
+  font-size: 23px;
+  color: gray;
+  line-height: 15px;
+}

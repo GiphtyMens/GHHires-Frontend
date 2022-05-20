@@ -1,0 +1,30 @@
+.sidemenu {
+  width: 100%;
+  height: 100vh;
+}
+
+.aside_header {
+  height: 10rem;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.aside_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  height: 17rem;
+  width: 10rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.aside_list > a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  background: cadetblue;
+  height: 2.4rem;
+  align-items: center;
+}

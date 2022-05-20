@@ -1,0 +1,30 @@
+.default_container_one {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.dc_card {
+  height: 60vh;
+  width: 30vw;
+  border: 0.5px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  background: white;
+  padding: 2rem 0 0 0;
+}
+
+.dc_card > ul {
+  /* list-style: none; */
+  text-align: left;
+}
+
+.dc_card > ul > li {
+  border: 1px solid black;
+}
+.dc_card > ul > li > div > h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

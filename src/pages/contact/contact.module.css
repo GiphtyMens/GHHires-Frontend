@@ -1,0 +1,100 @@
+.main_page{
+    height: 90vh;
+    width: 100%;
+    border: 1px soild black;
+}
+
+.main_page1{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(6, 6, 32);
+    border-bottom-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+
+.main_page1 > h2{
+    font-size: 25px;
+    color: white;
+    margin: 2rem 0 0 0;
+}
+
+.main_page1 > h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.main_page2{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mp2_card1, .mp2_card2{
+    height: 65vh;
+    width: 43%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px 1px gray;
+    outline: none;
+    border: 0 solid white;
+    /* margin: 0 0 2rem 0; */
+}
+
+.mp2_card1{
+    margin: -11rem 0 4rem 6rem;
+}
+
+.mp2_card2{
+    margin: -11rem 6rem 4rem 0;
+}
+
+
+.mp2_card1 > h6, .mp2_card2 > h6{
+    height: 8vh;
+    width: 10vw;
+    margin: 1rem 0 1rem -1rem;
+    font-size: 50px;
+   color: black;
+}
+
+.mp2_card1 > h1, .mp2_card2 > h1{
+    margin: -1rem 0 0 -20rem;
+    font-weight: 700;
+}
+
+.mp2_card1 > h3, .mp2_card2 > h3{
+    text-align: left;
+    margin: 2rem 0 0 2rem;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.mp2_card2 > h3{
+    line-height: 5px;
+}
+
+.mp2_card1 > button{
+    height: 6vh;
+    width: 12vw;
+    margin: 10.5rem 0 0 -24rem;
+    box-shadow: 1px 1px 5px 1px gray;
+    border: 0 solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mp2_card2 > button{
+    height: 6vh;
+    width: 12vw;
+    box-shadow: 1px 1px 5px 1px gray;
+    margin: 4rem 0 0 -23rem;
+    border: 0 solid white;
+}
+

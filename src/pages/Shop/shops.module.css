@@ -1,0 +1,31 @@
+.main_page,
+.first_row {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.first_row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 3rem;
+}
+
+.fr_fb {
+  height: 40vh;
+  width: 22rem;
+  border: 1px solid black;
+  margin-top: 3rem;
+}
+
+.fr_fb > img {
+  height: 30vh;
+  width: 100%;
+}
+
+.fr_fb > h3 {
+  line-height: 15px;
+  margin-top: 20px;
+}

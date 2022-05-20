@@ -1,0 +1,105 @@
+.main_description {
+  min-height: 100vh;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.first_row,
+.second_row {
+  min-height: 45vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.description_card1,
+.description_card2,
+.description_card3,
+.des_card1,
+.des_card2,
+.des_card3 {
+  height: 45vh;
+  width: 20rem;
+  /* border: 1px solid black; */
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.215);
+  text-align: left;
+}
+
+.description_card1 > h5,
+.description_card2 > h5,
+.description_card3 > h5,
+.des_card1 > h5,
+.des_card2 > h5,
+.des_card3 > h5 {
+  height: 28vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.description_card1 > h5 {
+  background-image: url("/public/low-fade_jpg-600x390.jpg");
+}
+
+.description_card2 > h5 {
+  background-image: url("/public/high-fade_jpg-600x390.jpg");
+}
+
+.description_card3 > h5 {
+  background-image: url("/public/mid-fade_jpg-600x390.jpg");
+}
+
+.des_card1 > h5 {
+  background-image: url("/public/crew-cut_jpg-600x390.jpg");
+}
+
+.des_card2 > h5 {
+  background-image: url("/public/buzzcut_jpg-600x390.jpg");
+}
+
+.des_card3 > h5 {
+  background-image: url("/public/quiff_jpg-600x390.jpg");
+}
+
+.description_card1 > h1,
+.description_card2 > h1,
+.description_card3 > h1,
+.des_card1 > h1,
+.des_card2 > h1,
+.des_card3 > h1 {
+  margin: 10px 0 0 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.description_card1 > p,
+.description_card2 > p,
+.description_card3 > p,
+.des_card1 > p,
+.des_card2 > p,
+.des_card3 > p {
+  /* text-align: justify; */
+  margin: 5px 0 0 0.5rem;
+  line-height: 14px;
+  /* letter-spacing: 0.1px; */
+}
+
+.description_card1 > h2,
+.description_card2 > h2,
+.description_card3 > h2,
+.des_card1 > h2,
+.des_card2 > h2,
+.des_card3 > h2 {
+  margin: 5px 0 0 0.5rem;
+  font-weight: 600;
+  color: brown;
+}

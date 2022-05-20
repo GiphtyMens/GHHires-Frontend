@@ -1,0 +1,18 @@
+.profile {
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 20% 80%;
+  justify-content: center;
+}
+
+.aside,
+.content {
+  border: 1px solid black;
+}
+
+.aside {
+  background-color: aqua;
+  color: white;
+}

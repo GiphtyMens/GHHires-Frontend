@@ -1,0 +1,29 @@
+.shops {
+  min-height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shops > h1 {
+  font-size: 48px;
+  text-align: left;
+  padding-left: 6rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color: #101928;
+}
+
+ .shops_cards{
+  height: 50vh;
+  width: 250vw;
+  border: 1px solid black;
+  margin: 0 0 0 0;
+} 
+
+ /* .shops_card1, .shops_card2, .shops_card3, .shops_card4{
+  height: 70vh;
+  width: 20vw;
+  border: 1px solid black;
+} */
