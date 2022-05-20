@@ -37,7 +37,7 @@ const LoginShop = () => {
       body: { ...state },
     });
     setShop({ shop });
-    navigate("/d/default");
+    navigate("/d/appointment");
   };
 
   return (
